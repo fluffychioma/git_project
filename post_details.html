@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+   <meta charset="UFT-8">
+   <meta name="viewport" content="width-device-width, initial-scale-1.0">
+   <title>Post Details</title>
+</head>
+<body>
+    <h1>{{post.title}}</h1>
+    <h4>This is the post you selected:</h4>
+    <p>{{post.description}}</p>
+    <small>By: {{post.author}}</small>
+
+    <br/>
+    <br/>
+    <a href="{% url 'home' %}">Back to home page</a>
+</body>
+</html>
